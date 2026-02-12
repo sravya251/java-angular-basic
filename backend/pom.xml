@@ -24,7 +24,6 @@
         <artifactId>frontend</artifactId>
         <version>${project.version}</version>
         <type>jar</type>
-        <!-- we add optional to work with the backend package without building the frontend -->
         <optional>true</optional>
     </dependency>
         <dependency>
@@ -32,7 +31,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 
-        <!-- This is used to document the API -->
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
